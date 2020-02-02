@@ -12,6 +12,9 @@ module.exports = {
       resolve: `gatsby-source-datocms`,
       options: {
         apiToken: process.env.DATO_API_TOKEN,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
@@ -37,6 +40,6 @@ module.exports = {
         siteSpeedSampleRate: 10,
         cookieDomain: "example.com",
       },
-    },
+    },    
   ],
 }
