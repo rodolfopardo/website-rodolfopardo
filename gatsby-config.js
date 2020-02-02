@@ -3,10 +3,12 @@ require('dotenv').config()
 module.exports = {
   siteMetadata: {
     title: `Rodolfo Pardo Data Analyst`,
+    siteUrl: `https://www.rodolfopardo.netlify.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-datocms`,
