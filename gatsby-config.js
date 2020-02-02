@@ -2,7 +2,10 @@ require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
-    title: `Rodolfo Pardo Data Analyst`,
+    title: `Rodolfo Pardo - Data Analyst`,
+    description:
+      "Análisis, Extracción, Limpieza y Visualización de datos desde Mendoza a todo Argentina",
+    twitterUsername: "@rodipardo_"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
