@@ -49,3 +49,12 @@ export const query = graphql`
     }
   }
 `
+import Helmet from 'react-helmet';
+<Helmet>
+  <html lang="en" />
+  <title>{site.siteMetadata.title}</title>
+  <meta
+    name="google-site-verification"
+    content="IrK5enRatjMS1AINpN9D2CQHE9q3hY4UC5_EtCKXzqc"
+  />
+</Helmet>;
