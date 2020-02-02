@@ -4,15 +4,6 @@ import Masonry from 'react-masonry-component'
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
 
-<Helmet
-    title={data.site.siteMetadata.title}
-    meta={[
-    { name: 'Rodolfo Pardo Analista de Datos', content: 'Data Analyst en Mendoza' },
-    { name: 'google-site-verification', content: 'IrK5enRatjMS1AINpN9D2CQHE9q3hY4UC5_EtCKXzqc' }
-    ]}
-/>
-
-
 const IndexPage = ({ data }) => (
   <Layout>
     <Masonry className="showcase">
@@ -35,6 +26,13 @@ const IndexPage = ({ data }) => (
       ))}
     </Masonry>
   </Layout>
+ <Helmet
+    title={data.site.siteMetadata.title}
+    meta={[
+    { name: 'Rodolfo Pardo Data Analyst', content: 'ETL de los datos por Rodolfo Pardo, Analista de Datos' },
+    { name: 'google-site-verification', content: 'IrK5enRatjMS1AINpN9D2CQHE9q3hY4UC5_EtCKXzqc' }
+    ]}
+/>
 )
 
 export default IndexPage
